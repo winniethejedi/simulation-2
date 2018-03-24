@@ -1,0 +1,89 @@
+.pink-button {
+    background: #FEC2C2;
+    color: black;
+    width: 65px;
+    height: 40px;
+    padding: 2px;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+}
+
+.wizard-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.step-icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.step-image {
+    width: 500px;
+    height: 300px;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #DEDEDE;
+    border: solid 1px #519872;
+    background-position: center;
+}
+
+.step-body h2 {
+    text-align: center;
+}
+
+.wizard-top-left h1 {
+    margin-left: 20px;
+}
+
+.pink-button {
+    margin-right: 20px;
+    padding: 2px;
+}
+
+.wizard-content {
+    background: linear-gradient(to bottom, #e2f3ea, #ffffff);
+    margin: auto;
+    height: 100vh;
+    display: flex;  
+}
+
+.wizard-body {
+    width: 60%;
+}
+
+.wizard-page {
+    overflow: hidden;
+}
+
+.wizard-content input, .wizard-content textarea {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    resize: none;
+}
+
+#description-input {
+    height: 106px;
+}
+
+.step-body .dark-green-button, .step-body .light-green-button {
+    min-width: 130px;
+    min-height: 40px;
+    margin-top: 25px;
+}
+
+.step-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+#recommended-rent {
+    text-align: center;
+}

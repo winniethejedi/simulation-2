@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-evenly;
+    background: #519872;
+    color: white;
+}
+
+.header h1 {
+    font-weight: bold;
+    padding: 0px 20px;
+}
+
+.header h2 {
+    font-weight: lighter;
+    padding-top: 8px;
+}
+
+.header h3 {
+    padding-top: 11px;
+}
+
+.header-left-side {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header img {
+    width: 34px;
+    height: 28px;
+    padding-top: 28px;
+}

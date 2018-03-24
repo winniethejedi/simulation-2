@@ -1,0 +1,45 @@
+.login-page {
+    margin: auto;
+    background: white;
+    height: 100vh;
+    display: flex;  
+}
+
+.login-contents input {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.login-contents {
+    width: 60%;
+    margin: auto;
+    display: block;
+}
+
+
+.login-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#login-logo {
+    margin: auto;
+    display: flex;
+}
+
+.input-box h3 {
+    margin-left: 52px;
+}
+
+.login-buttons .light-green-button, .login-buttons .dark-green-button {
+    padding: 5px;
+    min-width: 130px;
+    min-height: 40px;
+}
+
+.login-buttons .light-green-button {
+    margin-right: 75px;
+}
+

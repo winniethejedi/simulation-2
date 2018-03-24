@@ -1,0 +1,92 @@
+.filter-content {
+    display: flex;
+    border-bottom: 1px black solid;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.dashboard-content {
+    background: linear-gradient(to bottom, #e2f3ea, #ffffff);
+    margin: auto;
+    height: 100%;
+    display: flex;  
+}
+
+#add-property {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 0px 0px;
+    margin-top: 15px;
+}
+
+.property-container {
+    display: flex;
+    justify-content: space-evenly;
+    max-height: 200px;
+    background: #DEDEDE;
+    margin: 15px 15px;
+    position: relative;
+}
+
+.dashboard-body {
+    width: 60%;
+}
+
+.property-info {
+    overflow-y:auto;
+    width: 33%;
+}
+
+.property-info p {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.filter-content .dark-green-button, .filter-content .light-green-button {
+    min-width: 70px;
+    min-height: 38px;
+    padding: 0px;
+}
+
+.filter-content input {
+    width: 80%;
+    max-height: 40px;
+    margin-left: 2px;
+}
+
+.dollar-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80px;
+    max-height: 48px;
+}
+
+.property-image {
+    display: inline-block;
+    max-height: 200px;
+    width: 33%;
+    background: center center no-repeat;
+    background-size: 95%;
+}
+
+.property-image img {
+    vertical-align: middle;
+    max-width: 95%;
+    max-height: 95%;
+    position: absolute;
+}
+
+.property-name-description {
+    width: 33%;
+    overflow-y:auto;
+}
+
+.delete-property-button {
+    position: absolute;
+    top: 1px;
+    right: 5px;
+}
+
